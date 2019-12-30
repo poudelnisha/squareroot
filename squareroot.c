@@ -31,6 +31,7 @@ int main ( int argc , char **argv){
 		c = c*c * (c-3)/4;
 	} while (fabs(aprev - a) > epsilon);
 	printf ("square root of %f is nearly equal to %f", x * pow(4, power), a * pow(2 , power));
+	printf("this is a practice");
 	return 0 ;
 }
 	
